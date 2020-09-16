@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sk="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms" xmlns:io="clr-namespace:System.IO;assembly=netstandard"
+             mc:Ignorable="d"
+             x:Class="SikiaSharpTraining.MainPage">
+
+    <Grid  >
+       
+        <Grid  WidthRequest="250" HeightRequest="250" BackgroundColor="Red" VerticalOptions="Center" HorizontalOptions="Center">
+            <sk:SKCanvasView x:Name="canvasView" PaintSurface="SKCanvasView_PaintSurface" />
+           
+
+        </Grid>
+       
+         
+       
+    </Grid>
+
+</ContentPage>
